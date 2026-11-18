@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ELPA21 Speaking · Soccer: The Goalkeeper's Save</title>
+<style>
+:root{--navy:#14213d;--blue:#1d4ed8;--sky:#dbeafe;--gold:#f5c400;--red:#d7262b;--green:#15803d;--ink:#1f2937;--mute:#6b7280;--line:#e5e7eb;--bg:#f6f7fb}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.45}
+header{background:var(--navy);color:#fff;padding:20px 16px}
+.wrap{max-width:960px;margin:0 auto}
+.kicker{font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.8}
+h1{margin:4px 0 2px;font-size:clamp(22px,4vw,32px);font-weight:900;line-height:1.1}
+.sub{opacity:.9;font-size:14px}
+.start{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:16px}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:var(--navy);font-weight:900;font-size:18px;padding:12px 22px;border-radius:999px;text-decoration:none;border:0;cursor:pointer;box-shadow:0 4px 0 #b08900}
+.btn:active{transform:translateY(2px);box-shadow:0 2px 0 #b08900}
+.btn.sec{background:#fff;color:var(--navy);box-shadow:0 4px 0 #cbd5e1;font-size:15px;padding:10px 16px}
+.btn.sec:active{box-shadow:0 2px 0 #cbd5e1}
+main{padding:18px 16px 40px}
+section{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;margin:14px 0}
+h2{margin:0 0 8px;font-size:19px;color:var(--navy)}
+h2 small{font-weight:500;color:var(--mute);font-size:13px;margin-left:8px}
+.es{color:var(--mute);font-style:italic}
+ol,ul{padding-left:22px;margin:6px 0}
+li{margin:4px 0}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:700px){.row{grid-template-columns:1fr}}
+.bank{display:flex;flex-wrap:wrap;gap:6px}
+.chip{background:var(--sky);color:var(--navy);border-radius:999px;padding:4px 10px;font-size:14px;font-weight:600}
+.chip.v{background:#fee2e2;color:#991b1b}.chip.g{background:#dcfce7;color:#166534}
+.tts{font-size:13px;background:#fff;border:1.5px solid var(--navy);color:var(--navy);border-radius:999px;padding:4px 12px;cursor:pointer;font-weight:700}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.tab{border:1.5px solid var(--navy);background:#fff;color:var(--navy);border-radius:999px;padding:6px 14px;font-weight:700;cursor:pointer;font-size:14px}
+.tab.on{background:var(--navy);color:#fff}
+.panel{display:none}.panel.on{display:block}
+.panel img{width:100%;height:auto;border:1px solid var(--line);border-radius:10px}
+.prompt{background:var(--bg);border-left:4px solid var(--blue);padding:10px 12px;border-radius:0 8px 8px 0;margin:8px 0}
+.prompt b{color:var(--navy)}
+.timer{display:inline-flex;align-items:center;gap:8px;margin-top:6px}
+.timer button{border:0;background:var(--navy);color:#fff;border-radius:8px;padding:6px 12px;font-weight:700;cursor:pointer}
+.timer .t{font-variant-numeric:tabular-nums;font-weight:900;font-size:22px;color:var(--navy);min-width:60px}
+details{border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:8px 0;background:#fff}
+summary{cursor:pointer;font-weight:800;color:var(--navy)}
+table{border-collapse:collapse;width:100%;font-size:13.5px;margin-top:8px}
+th,td{border:1px solid var(--line);padding:6px 8px;vertical-align:top;text-align:left}
+th{background:var(--bg)}
+blockquote{margin:6px 0;padding:8px 12px;background:var(--bg);border-radius:8px;font-size:14px}
+footer{text-align:center;color:var(--mute);font-size:12px;padding:10px 16px 30px}
+.note{font-size:13px;color:var(--mute)}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<div class="kicker">Storm Studio · Laurel High School EL 9–12 · ELPA21 Speaking Practice</div>
+<h1>Soccer: The Goalkeeper's Save</h1>
+<div class="sub">5 speaking questions · 1 picture · 30–60 seconds each · Levels 2–4 <span class="es">· 5 preguntas para hablar</span></div>
+<div class="start">
+<a class="btn" id="startBtn" href="https://student.snorkl.app/classes/e7e9359d-a359-4bf8-9d71-6e4b3184eeac/activity-sets/ca83647c-8a50-42f6-911c-5feeddbc4cd3" target="_blank" rel="noopener">▶ Start the Speaking Test on Snorkl</a>
+<button class="btn sec" onclick="document.getElementById('prep').scrollIntoView({behavior:'smooth'})">Practice first ↓</button>
+</div>
+<p class="note" style="color:#cbd5e1;margin:10px 0 0">Log in to Snorkl with your school account. Headphones with a microphone work best. <span class="es">Inicia sesión en Snorkl con tu cuenta escolar.</span></p>
+</div></header>
+
+<main class="wrap">
+
+<section>
+<h2>How it works <small>Cómo funciona</small> <button class="tts" onclick="say(document.getElementById('dirs').innerText)">🔊 Read to me</button></h2>
+<div id="dirs">
+<ol>
+<li>Read the question. Listen to it one time.</li>
+<li>Think for 10 seconds.</li>
+<li>Press <b>Record</b> and speak in English. Try to talk until the timer ends.</li>
+<li>You can record one more time if you want.</li>
+</ol>
+<p><b>Tips:</b> Speak in full sentences. It is okay to make mistakes — keep talking. Use the word bank. You can point to or draw on the picture while you talk.</p>
+</div>
+<p class="es">Lee la pregunta, piensa 10 segundos, graba en inglés y habla hasta que termine el tiempo. Puedes grabar una vez más. Está bien cometer errores: sigue hablando.</p>
+</section>
+
+<section id="prep">
+<h2>The picture <small>La imagen</small></h2>
+<img src="img/goalkeeper_save.png" alt="A goalkeeper in yellow dives to block a soccer ball near the goal line while a player in red finishes a kick; a referee runs toward the goal and students watch from behind a fence; the score is 1 to 1 with 2 minutes left" style="width:100%;border-radius:10px;border:1px solid var(--line)">
+<p class="note">Look at it for 30 seconds before you start. Who is in it? Where are they? What is happening? What will happen next?</p>
+</section>
+
+<section>
+<h2>Word bank <small>Banco de palabras</small> <button class="tts" onclick="say(document.getElementById('bank').innerText)">🔊 Read to me</button></h2>
+<div id="bank">
+<p style="margin:4px 0 2px;font-weight:700;color:var(--navy)">Soccer words</p>
+<div class="bank"><span class="chip">goalkeeper (goalie)</span><span class="chip">defender</span><span class="chip">striker</span><span class="chip">referee</span><span class="chip">ball</span><span class="chip">goal</span><span class="chip">net</span><span class="chip">goal line</span><span class="chip">scoreboard</span><span class="chip">whistle</span><span class="chip">penalty kick</span><span class="chip">corner kick</span><span class="chip">foul</span><span class="chip">tie (1–1)</span></div>
+<p style="margin:10px 0 2px;font-weight:700;color:var(--navy)">Action words</p>
+<div class="bank"><span class="chip v">kick</span><span class="chip v">shoot</span><span class="chip v">dive</span><span class="chip v">block</span><span class="chip v">save</span><span class="chip v">score</span><span class="chip v">run</span><span class="chip v">slide</span><span class="chip v">celebrate</span><span class="chip v">is diving</span><span class="chip v">is kicking</span><span class="chip v">is watching</span></div>
+<p style="margin:10px 0 2px;font-weight:700;color:var(--navy)">Linking and opinion words</p>
+<div class="bank"><span class="chip g">first</span><span class="chip g">then</span><span class="chip g">next</span><span class="chip g">after that</span><span class="chip g">finally</span><span class="chip g">because</span><span class="chip g">so</span><span class="chip g">but</span><span class="chip g">I think</span><span class="chip g">in my opinion</span><span class="chip g">I predict</span><span class="chip g">maybe</span><span class="chip g">probably</span><span class="chip g">will</span></div>
+</div>
+</section>
+
+<section>
+<h2>Practice the 5 questions <small>Practica las 5 preguntas · use the timer, then record on Snorkl</small></h2>
+<div class="tabs">
+<button class="tab on" data-p="1">1 · Warm-up</button><button class="tab" data-p="2">2 · Describe</button><button class="tab" data-p="3">3 · Tell the story</button><button class="tab" data-p="4">4 · Opinion</button><button class="tab" data-p="5">5 · Challenge</button>
+</div>
+
+<div class="panel on" id="p1">
+<div class="prompt"><b>Question 1 · 30 seconds.</b> Do you like soccer? Tell me about a time you played or watched a soccer game. Who was there? What happened? <button class="tts" onclick="say(this.parentNode.innerText)">🔊</button></div>
+<p><b>Starters:</b> I like / I don't like soccer because … · One time, I played / watched soccer with … · We were at … · It was fun / exciting because …</p>
+<p class="note">Never played or watched soccer? Tell me about a sport or game you like.</p>
+<div class="timer"><button onclick="startTimer(this,30)">Start 30 s</button><span class="t">0:30</span></div>
+</div>
+
+<div class="panel" id="p2">
+<img src="img/slide2.png" alt="Question 2 slide">
+<div class="prompt"><b>Question 2 · 45 seconds.</b> Look at the picture. Describe what you see. Who is in the picture? Where are they? What are they doing? Give as many details as you can. <button class="tts" onclick="say(this.parentNode.innerText)">🔊</button></div>
+<p><b>Starters:</b> I see a … · There is / There are … · The goalkeeper is … · The player in red is … · On the left / On the right / Behind the fence, …</p>
+<div class="timer"><button onclick="startTimer(this,45)">Start 45 s</button><span class="t">0:45</span></div>
+</div>
+
+<div class="panel" id="p3">
+<img src="img/slide3.png" alt="Question 3 slide">
+<div class="prompt"><b>Question 3 · 60 seconds.</b> Tell the story of this play. What happened first? What is happening now? What do you think will happen next? Use words like first, then, and next. <button class="tts" onclick="say(this.parentNode.innerText)">🔊</button></div>
+<p><b>Starters:</b> First, the player … · Then, the goalkeeper … · Next, I think … · The ball will … · If the goalkeeper saves it, …</p>
+<div class="timer"><button onclick="startTimer(this,60)">Start 60 s</button><span class="t">1:00</span></div>
+</div>
+
+<div class="panel" id="p4">
+<img src="img/slide4.png" alt="Question 4 slide">
+<div class="prompt"><b>Question 4 · 45 seconds.</b> Who has the hardest job on a soccer team: the goalkeeper, a defender, or a striker? Give your opinion. Explain why with at least one reason. <button class="tts" onclick="say(this.parentNode.innerText)">🔊</button></div>
+<p><b>Starters:</b> I think the … has the hardest job. · It is hard because … · For example, in the picture, … · Some people think …, but I think …</p>
+<div class="timer"><button onclick="startTimer(this,45)">Start 45 s</button><span class="t">0:45</span></div>
+</div>
+
+<div class="panel" id="p5">
+<div class="prompt"><b>Question 5 · Challenge · 60 seconds. Choose A or B.</b><br><b>A)</b> Compare a penalty kick and a regular shot during play. How are they the same? How are they different? Which one is harder for the goalkeeper, and why?<br><b>B)</b> Explain one rule of soccer to a new student (offside, corner kick, yellow card…). What is the rule? Why does the game need it? <button class="tts" onclick="say(this.parentNode.innerText)">🔊</button></div>
+<p><b>Frames:</b> Both … However, a penalty kick …, while a regular shot … · The rule says that … This rule is important because … Without it, …</p>
+<div class="timer"><button onclick="startTimer(this,60)">Start 60 s</button><span class="t">1:00</span></div>
+</div>
+<p style="margin-top:14px"><a class="btn" href="https://student.snorkl.app/classes/e7e9359d-a359-4bf8-9d71-6e4b3184eeac/activity-sets/ca83647c-8a50-42f6-911c-5feeddbc4cd3" target="_blank" rel="noopener">▶ Ready? Record on Snorkl</a></p>
+</section>
+
+<section>
+<h2>For the teacher <small>scoring guide</small></h2>
+<details><summary>Rubric · 1–4 in five ELPA21 domains</summary>
+<table>
+<tr><th>Domain</th><th>4 · Strong</th><th>3</th><th>2 · Developing</th><th>1 · Beginning</th></tr>
+<tr><td><b>Task completion</b></td><td>Answers every part; adds a detail or example</td><td>Answers all parts, little extra</td><td>Answers part; drifts off topic</td><td>One or two words, or off prompt</td></tr>
+<tr><td><b>Fluency</b></td><td>Speaks most of the time; natural pauses; self-corrects</td><td>Some pauses or restarts but keeps going</td><td>Long pauses; short bursts; stops early</td><td>Isolated words; long silence</td></tr>
+<tr><td><b>Vocabulary</b></td><td>Soccer terms and academic words used precisely</td><td>Several soccer terms; some general words</td><td>Basic words; relies on word bank</td><td>Very limited; meaning often unclear</td></tr>
+<tr><td><b>Grammar</b></td><td>Mostly accurate tenses; complex sentences (because, if, while)</td><td>Simple and some compound; errors don't block meaning</td><td>Mostly simple; frequent tense errors; meaning usually clear</td><td>Fragments; meaning hard to follow</td></tr>
+<tr><td><b>Comprehension</b></td><td>Full understanding of prompt and picture; logical connections</td><td>Main question understood; one part missed</td><td>Partial; answers a nearby question</td><td>Does not appear to understand</td></tr>
+</table>
+<p class="note">Score what the student says, not accent. Warm-up: Task completion and Fluency only. Item 5 replaces Item 4 for Challenge-lane students. Snorkl's AI score (0–4) follows the same scale; your score is final.</p>
+</details>
+<details><summary>What strong vs. developing sounds like (Question 3)</summary>
+<p><b>Strong (Level 4 range):</b></p>
+<blockquote>"First, the player in red got the ball and shot it really hard. Then the goalkeeper dived to the left to block it. Right now his fingers are touching the ball, so maybe he can save it. I think next the ball will go out and the referee will give a corner kick, because the goalkeeper touched it last. It's one to one with two minutes left, so if the red team scores, they will probably win."</blockquote>
+<p><b>Developing (Level 2 range):</b></p>
+<blockquote>"First the player kick the ball. Then the goalie… he jump. The ball is… near the goal. Next, I think goal. The red team happy. Um… the score is one, one."</blockquote>
+<p class="note">Strong: four steps, sequence words, past → present → future, prediction with <i>because</i>. Developing: order and two sequence words are there (Task 3, Comprehension 3), but short sentences with missing endings (Grammar 2), basic vocabulary (2), stops at ~25 seconds (Fluency 2), and no reason for the prediction.</p>
+</details>
+<details><summary>Feedback stems</summary>
+<ul>
+<li>"You used <i>first, then, next</i> in order. Next time, add <i>because</i> to your prediction."</li>
+<li>"Great soccer words: <i>corner kick, referee</i>. Try to talk until the timer ends."</li>
+<li>"You gave a clear opinion. Add one example from the picture to make it stronger."</li>
+<li>"I heard <i>he kick</i>. Remember: <i>he kicks</i> (now) or <i>he kicked</i> (before)."</li>
+</ul>
+</details>
+</section>
+
+</main>
+<footer>Storm Studio · Laurel High School EL 9–12 · ELPA21 Speaking folder · The illustration is original; no team logos or real players.</footer>
+
+<script>
+function say(t){ if(!window.speechSynthesis)return; speechSynthesis.cancel(); const u=new SpeechSynthesisUtterance(t.replace(/🔊/g,'')); u.lang='en-US'; u.rate=.9; const v=speechSynthesis.getVoices().find(v=>/en-US/i.test(v.lang)&&!/Bells|Zarvox|Bad News|Boing|Bubbles|Cellos|Deranged|Good News|Hysterical|Pipe Organ|Trinoids|Whisper|Wobble/i.test(v.name)); if(v)u.voice=v; speechSynthesis.speak(u); }
+if(window.speechSynthesis)speechSynthesis.getVoices();
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));document.querySelectorAll('.panel').forEach(x=>x.classList.remove('on'));b.classList.add('on');document.getElementById('p'+b.dataset.p).classList.add('on');speechSynthesis&&speechSynthesis.cancel();});
+let tInt=null;
+function startTimer(btn,secs){ clearInterval(tInt); const out=btn.nextElementSibling; let s=secs; const show=()=>out.textContent=Math.floor(s/60)+':'+String(s%60).padStart(2,'0'); show(); btn.textContent='Think… 10'; let think=10; const th=setInterval(()=>{think--;btn.textContent='Think… '+think;if(think<=0){clearInterval(th);btn.textContent='Speak!';tInt=setInterval(()=>{s--;show();if(s<=0){clearInterval(tInt);btn.textContent='Time! Now record on Snorkl';}},1000);}},1000); }
+</script>
+</body>
+</html>
